@@ -16,7 +16,9 @@ BootstrapNAS (1) takes as input a pre-trained model. (2) It uses this model to g
 
 ## Quickstart 
 
-Please follow the instructions [here](https://github.com/jpablomch/bootstrapnas/wiki/Quickstart)
+Please follow the instructions [here](https://github.com/jpablomch/bootstrapnas/wiki/Quickstart).
+
+If you already have a super-network trained with BootstrapNAS, please follow the instructions to search for sub-networks [here](https://github.com/jpablomch/bootstrapnas/wiki/SubnetworkSearch).
 
 More information about BootstrapNAS is available in our papers:
 
