@@ -1,6 +1,10 @@
 
 # BootstrapNAS
 
+### This repository is no longer supported. BootstrapNAS examples and instructions have been moved to our Intel Labs repository [[Hardware-Aware NAS]](https://github.com/IntelLabs/Hardware-Aware-Automated-Machine-Learning).
+
+### The latest code is available at [NNCF](https://github.com/openvinotoolkit/nncf).
+
 ---
 **Latest Updates**
 
@@ -12,7 +16,7 @@
 <img src="architecture.png" alt="BootstrapNAS Architecture" width="500"/>
 </p>
 
-BootstrapNAS (1) takes as input a pre-trained model. (2) It uses this model to generate a weight-sharing super-network. (3) BootstrapNAS then applies a training strategy, and once the super-network has been trained, (4) it searches for efficient subnetworks that satisfy the user's requirements. (5) The configuration of the discovered sub-network(s) is returned to the user.
+BootstrapNAS (1) takes a pre-trained model as input. (2) It uses this model to generate a weight-sharing super-network. (3) BootstrapNAS then applies a training strategy, and once the super-network has been trained, (4) it searches for efficient subnetworks that satisfy the user's requirements. (5) The configuration of the discovered sub-network(s) is returned to the user.
 
 ## Quickstart 
 
@@ -53,5 +57,3 @@ More information about BootstrapNAS is available in our papers:
 }
 ```
 
-## Contributing to BootstrapNAS
-Please follow the contribution guidelines in [NNCF](https://github.com/openvinotoolkit/nncf) and reach out to [Pablo Muñoz](mailto:pablo.munoz@intel.com) if you have any questions. 
